@@ -1,18 +1,28 @@
-# changes file
-*.changes
 
-# system image
-*.image
+# Created by https://www.gitignore.io/api/osx
 
-# Pharo Smalltalk Debug log file
-PharoDebug.log
+### OSX ###
+*.DS_Store
+.AppleDouble
+.LSOverride
 
-# Squeak Smalltalk Debug log file
-SqueakDebug.log
+# Icon must end with two \r
+Icon
+# Thumbnails
+._*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-# Monticello package cache
-/package-cache
-
-# Metacello-github cache
-/github-cache
-github-*.zip
+# End of https://www.gitignore.io/api/osx
